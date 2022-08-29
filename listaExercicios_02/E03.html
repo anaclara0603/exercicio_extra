@@ -1,0 +1,34 @@
+<script>
+    //Problema: Quando o aluno entrar no IFC, ele deverá informar o Curso que está matriculado.
+    //Usando SWITCH...CASE, apresente a seguinte mensagem:
+    //Se Técnico em Informática (I): Bloco B!
+    //Se Técnico em Química (Q): Bloco D!
+    //Se Técnico em Agropecuária (A): Bloco E!
+
+    //ENTRADA
+    const aa = prompt("Faça seu login, informe seu curso: (Técnico em Informática (I),Se Técnico em Química (Q) Técnico em Agropecuária (A)").toUpperCase()
+    let mensagem 
+    //PROCESSAMENTO
+    switch (aa) {
+        case "A":
+            mensagem = "Bloco E!"
+            break;
+        case "Q" : 
+            mensagem = "Bloco D!"
+            break;
+        case "I": 
+            mensagem = "Bloco B!"
+            break;
+        default:
+            mensagem = "uahahauhua"
+            break;
+    }
+
+
+    //SAÍDA
+    alert(mensagem)
+
+
+
+
+</script>

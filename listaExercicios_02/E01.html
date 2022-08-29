@@ -1,0 +1,30 @@
+<script>
+    //Problema: Ao usuário logar em uma aplicação, ele deverá informar se é Administrador (A), Gerente (G) ou Usuário Comum (U).
+    //Usando SWITCH...CASE, apresente a seguinte mensagem:
+    //Se Administrador: Bom dia, Senhor!
+    //Se Gerente: Bom dia, Chefe!
+    //Se Usuário Comum: Bom dia!
+
+    //ENTRADA
+    const aa = prompt("Faça seu login, informe seu cargo: (Administrador (A), Gerente (G) ou Usuário Comum (U))")
+    let mensagem 
+    //PROCESSAMENTO
+    switch (aa) {
+        case "A":
+            mensagem = "Bom dia, Senhor!"
+            break;
+        case "G" : 
+            mensagem = "Bom dia, Chefe!"
+            break;
+        case "U": 
+            mensagem = "Bom dia!"
+        default:
+            mensagem = "uahahauhua"
+            break;
+    }
+
+
+    //SAÍDA
+    alert(mensagem)
+
+</script>
